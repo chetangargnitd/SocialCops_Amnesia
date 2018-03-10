@@ -1,0 +1,322 @@
+Sat, 10 Mar 2018 18:49:53 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 13, in send_sms
+    diff_time = now - receiver.created_date
+AttributeError: 'QuerySet' object has no attribute 'created_date'
+Sat, 10 Mar 2018 18:51:13 ERROR Failed to complete cronjob at ('*/2 * * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 13, in send_sms
+    diff_time = now - receiver.created_date
+AttributeError: 'QuerySet' object has no attribute 'created_date'
+Sat, 10 Mar 2018 18:53:24 ERROR Failed to complete cronjob at ('*/2 * * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 13, in send_sms
+    diff_time = now - receiver.created_date
+AttributeError: 'QuerySet' object has no attribute 'created_date'
+Sat, 10 Mar 2018 18:53:30 ERROR Failed to complete cronjob at ('*/2 * * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 13, in send_sms
+    diff_time = now - receiver.created_date
+AttributeError: 'QuerySet' object has no attribute 'created_date'
+Sat, 10 Mar 2018 18:57:05 ERROR Failed to complete cronjob at ('*/2 * * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 13, in send_sms
+    diff_time = now - receiver.created_date
+AttributeError: 'QuerySet' object has no attribute 'created_date'
+Sat, 10 Mar 2018 19:02:10 ERROR Failed to complete cronjob at ('*/2 * * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 13, in send_sms
+    diff_time = now - receiver.created_date
+AttributeError: 'QuerySet' object has no attribute 'created_date'
+Sat, 10 Mar 2018 19:02:17 ERROR Failed to complete cronjob at ('*/2 * * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 13, in send_sms
+    diff_time = now - receiver.created_date
+AttributeError: 'QuerySet' object has no attribute 'created_date'
+Sat, 10 Mar 2018 19:05:00 ERROR Failed to complete cronjob at ('*/2 * * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 13, in send_sms
+    diff_time = now - receiver.created_date
+AttributeError: 'QuerySet' object has no attribute 'created_date'
+Sat, 10 Mar 2018 19:07:00 ERROR Failed to complete cronjob at ('*/2 * * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 12, in send_sms
+    diff_time = now - receiver.created_date
+AttributeError: 'QuerySet' object has no attribute 'created_date'
+Sat, 10 Mar 2018 19:09:28 ERROR Failed to complete cronjob at ('*/2 * * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 8, in send_sms
+    diff_time = now - receiver.created_date
+UnboundLocalError: local variable 'receiver' referenced before assignment
+Sat, 10 Mar 2018 19:19:03 ERROR Failed to complete cronjob at ('*/2 * * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 12, in send_sms
+    now = datetime.utcnow().replace(tzinfo=utc)
+NameError: global name 'utc' is not defined
+Sat, 10 Mar 2018 19:19:19 ERROR Failed to complete cronjob at ('*/2 * * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 12, in send_sms
+    now = datetime.utcnow().replace(tzinfo=utc)
+NameError: global name 'utc' is not defined
+Sat, 10 Mar 2018 19:24:54 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 12, in send_sms
+    curr_timezone = timezone.time_zones_for_number(phone_number)[0]
+NameError: global name 'timezone' is not defined
+Sat, 10 Mar 2018 19:34:27 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 25, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone, run_time ))
+UnboundLocalError: local variable 'run_time' referenced before assignment
+Sat, 10 Mar 2018 19:37:35 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 27, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone, run_time ))
+NameError: global name 'run_time' is not defined
+Sat, 10 Mar 2018 19:38:06 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 27, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone, run_time ))
+NameError: global name 'run_time' is not defined
+Sat, 10 Mar 2018 19:40:41 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 29, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone, run_time ))
+NameError: global name 'run_time' is not defined
+Sat, 10 Mar 2018 19:42:54 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 29, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone, run_time ))
+NameError: global name 'run_time' is not defined
+Sat, 10 Mar 2018 19:43:08 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 29, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone, run_time ))
+NameError: global name 'run_time' is not defined
+Sat, 10 Mar 2018 19:43:41 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 30, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone, run_time ))
+NameError: global name 'run_time' is not defined
+Sat, 10 Mar 2018 19:50:48 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 28, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone, run_time ))
+NameError: global name 'run_time' is not defined
+Sat, 10 Mar 2018 19:50:58 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 26, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone, run_time ))
+NameError: global name 'run_time' is not defined
+Sat, 10 Mar 2018 19:51:59 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 24, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone, run_time ))
+NameError: global name 'run_time' is not defined
+Sat, 10 Mar 2018 19:52:18 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 24, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone, run_time ))
+NameError: global name 'run_time' is not defined
+Sat, 10 Mar 2018 19:56:20 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 13, in send_sms
+    now_date = now,date()
+NameError: global name 'date' is not defined
+Sat, 10 Mar 2018 19:56:26 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 13, in send_sms
+    now_date = now,date()
+NameError: global name 'date' is not defined
+Sat, 10 Mar 2018 19:57:27 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 13, in send_sms
+    now_date = now,date()
+NameError: global name 'date' is not defined
+Sat, 10 Mar 2018 19:57:44 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 13, in send_sms
+    now_date = now,date()
+NameError: global name 'date' is not defined
+Sat, 10 Mar 2018 19:57:59 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 29, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s %s\n" % (now, receivers.phone, run_days, run_time ))
+NameError: global name 'run_days' is not defined
+Sat, 10 Mar 2018 19:58:49 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 31, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s %s\n" % (now, receivers.phone, run_days, run_time ))
+UnboundLocalError: local variable 'run_time' referenced before assignment
+Sat, 10 Mar 2018 19:59:26 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 33, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s %s\n" % (now, receivers.phone, run_days, run_time ))
+UnboundLocalError: local variable 'run_time' referenced before assignment
+Sat, 10 Mar 2018 20:00:58 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 33, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s %s\n" % (now, receivers.phone, run_days, run_time ))
+UnboundLocalError: local variable 'run_time' referenced before assignment
+Sat, 10 Mar 2018 20:01:51 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 36, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s %s\n" % (now, receivers.phone, run_days, run_time ))
+UnboundLocalError: local variable 'run_time' referenced before assignment
+Sat, 10 Mar 2018 20:05:11 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 36, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s %s\n" % (now, receivers.phone, run_days, run_time ))
+UnboundLocalError: local variable 'run_days' referenced before assignment
+Sat, 10 Mar 2018 20:05:48 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 34, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s %s\n" % (now, receivers.phone, run_days, run_time ))
+UnboundLocalError: local variable 'run_days' referenced before assignment
+Sat, 10 Mar 2018 20:07:56 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 24, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone, run_time ))
+NameError: global name 'run_time' is not defined
+Sat, 10 Mar 2018 20:13:24 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 29, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone ))
+TypeError: not enough arguments for format string
+Sun, 11 Mar 2018 02:02:23 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 27, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone ))
+TypeError: not enough arguments for format string
+Sun, 11 Mar 2018 02:03:39 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 27, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone ))
+TypeError: not enough arguments for format string
+Sun, 11 Mar 2018 02:15:27 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 24, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone ))
+TypeError: not enough arguments for format string
+Sun, 11 Mar 2018 02:15:37 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 24, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone ))
+TypeError: not enough arguments for format string
+Sun, 11 Mar 2018 02:16:07 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 24, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone ))
+TypeError: not enough arguments for format string
+Sun, 11 Mar 2018 02:18:33 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 24, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone ))
+TypeError: not enough arguments for format string
+Sun, 11 Mar 2018 02:19:21 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 23, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone ))
+TypeError: not enough arguments for format string
+Sun, 11 Mar 2018 02:23:25 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 26, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone ))
+TypeError: not enough arguments for format string
+Sun, 11 Mar 2018 02:24:30 ERROR Failed to complete cronjob at ('0 9-23/1 * * *', 'reminder.cron.send_sms')
+Traceback (most recent call last):
+  File "/home/chetan/SocialCops_Amnesia/venv/local/lib/python2.7/site-packages/django_crontab/crontab.py", line 145, in run_job
+    func(*job_args, **job_kwargs)
+  File "/home/chetan/SocialCops_Amnesia/reminder/cron.py", line 25, in send_sms
+    f.write("%s Message couldn't be sent to %s. Application is running for %s \n" % (now, receivers.phone ))
+TypeError: not enough arguments for format string

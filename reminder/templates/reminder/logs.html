@@ -1,0 +1,21 @@
+{% extends 'reminder/base.html' %}
+{% block logs_active %}active{% endblock %}
+
+{% block body%}
+	<div class="col-md-offset-1 col-md-4 container">
+		<div class="row" style="text-align: center;">									
+			<p style="font-size: 30px; font-family: 'Coiny', cursive;"><strong>Failed/Undelivered Message Log</strong></p>									
+		</div>						    
+		{% for msg in failed_msgs  %}
+			<div class="row box col-md-offset-2 col-md-10" style="padding-top: -5px; margin-left:5px; margin-bottom: 5px; border-radius: 5px;">
+				<div class="caption">
+					<h5><strong>{{ msg.status|title }} - {{ msg.to }}</strong></h5>
+					<h6> Sent on : {{ msg.date }} - {{ msg.time  }}</h6>
+				</div>
+			</div>
+		{% endfor %}									
+	</div>	
+	<div>
+		<br><br>
+	</div>	
+{% endblock %}
