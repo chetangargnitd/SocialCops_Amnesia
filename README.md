@@ -7,6 +7,5 @@ To run this :
 2. Run the command pip install -r requirements.txt to install all dependencies
 3. Set up Account_SID and auth_token from Twilio.
 4. To run the local server python manage.py runserver
-5. Run django cronjob : 
-        python manage.py crontab add
-        python manage.py crontab run <enter hash value>
+5. Add django crontab : python manage.py crontab add
+6. Run django crontab : python manage.py crontab run <enter hash value>
