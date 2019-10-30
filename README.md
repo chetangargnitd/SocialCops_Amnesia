@@ -1,6 +1,6 @@
 # SocialCops_Amnesia
 
-It is a Django based web application where one can set his/her number and the app will Send an SMS every one hour except at night.
+It is a Django based web application where one can set his/her number and the app will send an SMS every one hour except at night.
 
 To run this project:
 1. Clone this repository.
